@@ -1,5 +1,5 @@
 # Weather-App
-* Application web pour voir la météo (en cours de développement).
+* Application web pour voir la météo.
 * HTML / CSS / JS / API.
 * Github Pages Deployment : 06/02/2023
 
