@@ -15,6 +15,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
 
 
     <title>Weather APP - DevFoxie</title>
@@ -26,13 +31,38 @@
     <div class="container">
         <div class="search-box">
             <i class="fa-solid fa-location-dot"></i>
-            <input type="text" placeholder="Entrer votre localisation">
-            <button class="fa-solid fa-magnfying-glass"></button>
+            <input type="text" placeholder="Entrez votre localisation">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
 
         <div class="not-found">
+            <img src="./404.png">
+            <p>Localisation invalide :/</p>
+        </div>
+
+        <div class="weather-box">
             <img src="">
-            <p>Oops! Localisation invalide :/</p>
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
         </div>
 
     </div>
